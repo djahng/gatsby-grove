@@ -15,7 +15,7 @@ export default class NavBar extends Component {
         expand="md"
         dark
       >
-        <Link to="#" className="navbar-brand">
+        <Link to="/" className="navbar-brand">
           <h3 className="mb-0">Aurora Grove</h3>
         </Link>
 
@@ -24,19 +24,19 @@ export default class NavBar extends Component {
         <Collapse isOpen={!this.state.collapsed} navbar>
           <Nav navbar className="ml-auto">
             <NavItem>
-              <Link to="#" className="nav-link">Home</Link>
+              <Link to="/" className="nav-link">Home</Link>
             </NavItem>
             <NavItem>
-              <Link to="#" className="nav-link">About</Link>
+              <Link to="#about" className="nav-link">About</Link>
             </NavItem>
             <NavItem>
-              <Link to="#" className="nav-link">Explore</Link>
+              <Link to="#explore" className="nav-link">Explore</Link>
             </NavItem>
             <NavItem>
-              <Link to="#" className="nav-link">Contact</Link>
+              <Link to="#newsletter" className="nav-link">Newsletter</Link>
             </NavItem>
             <NavItem>
-              <Link to="#" className="nav-link">Book</Link>
+              <Link to="#book" className="nav-link">Book</Link>
             </NavItem>
           </Nav>
         </Collapse>

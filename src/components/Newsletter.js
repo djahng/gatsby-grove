@@ -2,7 +2,7 @@ import React from 'react';
 
 export default () => (
   <div className="bg-dark">
-    <div className="container text-white text-center py-5">
+    <div className="container text-white text-center py-5" id="newsletter">
       <p className="lead">JOIN OUR NEWSLETTER FOR DEALS AND UPDATES</p>
 
       <div className="row justify-content-center">

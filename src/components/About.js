@@ -6,7 +6,7 @@ import campfireImg from '../images/icons/campfire.png';
 import natureImg from '../images/icons/nature.png';
 
 const About = () => (
-  <Container className="text-center mt-5">
+  <Container className="text-center mt-5" id="about">
     <h2>YOU SHOW UP, WE PITCH THE TENT</h2>
 
     <Row>

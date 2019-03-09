@@ -1,3 +1,4 @@
+/* eslint-disable */
 import React, { Component } from 'react';
 import { FaArrowRight } from 'react-icons/fa';
 import {

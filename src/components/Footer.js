@@ -4,19 +4,16 @@ const Footer = () => (
   <div id="footer" className="p-3">
     <ul className="nav text-center justify-content-center flex-column flex-sm-row">
       <li className="nav-item">
-        <a href="#" className="nav-link text-white">FAQ</a>
+        <a href="#about" className="nav-link text-white">ABOUT</a>
       </li>
       <li className="nav-item">
-        <a href="#" className="nav-link text-white">EXPERIENCE</a>
+        <a href="#explore" className="nav-link text-white">EXPLORE</a>
       </li>
       <li className="nav-item">
-        <a href="#" className="nav-link text-white">EXPLORE</a>
+        <a href="#newsletter" className="nav-link text-white">NEWSLETTER</a>
       </li>
       <li className="nav-item">
-        <a href="#" className="nav-link text-white">CONTACT</a>
-      </li>
-      <li className="nav-item">
-        <a href="#" className="nav-link text-white">BOOK NOW</a>
+        <a href="#book" className="nav-link text-white">BOOK NOW</a>
       </li>
     </ul>
   </div>

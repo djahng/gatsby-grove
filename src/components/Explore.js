@@ -5,7 +5,7 @@ import winterImg from '../images/winter.png';
 import dogsImg from '../images/dogs.png';
 
 const Explore = () => (
-  <div className="container text-center mt-2 p-3">
+  <div className="container text-center mt-2 p-3" id="explore">
     <h3>WE'VE CREATED A CAMPING EXPERIENCE THAT'S TURN-KEY AND HASSLE FREE</h3>
 
     <div className="row m-2">
